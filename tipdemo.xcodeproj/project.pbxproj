@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF98C6961940381700141A6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98C6951940381700141A6A /* UIKit.framework */; };
+		CF98C6981940381700141A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98C6971940381700141A6A /* Foundation.framework */; };
+		CF98C69A1940381700141A6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98C6991940381700141A6A /* CoreGraphics.framework */; };
+		CF98C6A01940381700141A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF98C69E1940381700141A6A /* InfoPlist.strings */; };
+		CF98C6A21940381700141A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF98C6A11940381700141A6A /* main.m */; };
+		CF98C6A61940381700141A6A /* TIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF98C6A51940381700141A6A /* TIPAppDelegate.m */; };
+		CF98C6A81940381700141A6A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF98C6A71940381700141A6A /* Default.png */; };
+		CF98C6AA1940381700141A6A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF98C6A91940381700141A6A /* Default@2x.png */; };
+		CF98C6AC1940381700141A6A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF98C6AB1940381700141A6A /* Default-568h@2x.png */; };
+		CF98C6B41940381700141A6A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98C6B31940381700141A6A /* SenTestingKit.framework */; };
+		CF98C6B51940381700141A6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98C6951940381700141A6A /* UIKit.framework */; };
+		CF98C6B61940381700141A6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF98C6971940381700141A6A /* Foundation.framework */; };
+		CF98C6BE1940381700141A6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF98C6BC1940381700141A6A /* InfoPlist.strings */; };
+		CF98C6C11940381700141A6A /* tipdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF98C6C01940381700141A6A /* tipdemoTests.m */; };
+		CF98C6D219403F8C00141A6A /* TIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF98C6D019403F8C00141A6A /* TIPViewController.m */; };
+		CF98C6D319403F8C00141A6A /* TIPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF98C6D119403F8C00141A6A /* TIPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF98C6B71940381700141A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF98C6881940381700141A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF98C6901940381700141A6A;
+			remoteInfo = tipdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF98C6911940381700141A6A /* tipdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF98C6951940381700141A6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF98C6971940381700141A6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF98C6991940381700141A6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF98C69D1940381700141A6A /* tipdemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipdemo-Info.plist"; sourceTree = "<group>"; };
+		CF98C69F1940381700141A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF98C6A11940381700141A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF98C6A31940381700141A6A /* tipdemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tipdemo-Prefix.pch"; sourceTree = "<group>"; };
+		CF98C6A41940381700141A6A /* TIPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIPAppDelegate.h; sourceTree = "<group>"; };
+		CF98C6A51940381700141A6A /* TIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIPAppDelegate.m; sourceTree = "<group>"; };
+		CF98C6A71940381700141A6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF98C6A91940381700141A6A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CF98C6AB1940381700141A6A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CF98C6B21940381700141A6A /* tipdemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipdemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF98C6B31940381700141A6A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF98C6BB1940381700141A6A /* tipdemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipdemoTests-Info.plist"; sourceTree = "<group>"; };
+		CF98C6BD1940381700141A6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF98C6BF1940381700141A6A /* tipdemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tipdemoTests.h; sourceTree = "<group>"; };
+		CF98C6C01940381700141A6A /* tipdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipdemoTests.m; sourceTree = "<group>"; };
+		CF98C6CF19403F8C00141A6A /* TIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TIPViewController.h; sourceTree = "<group>"; };
+		CF98C6D019403F8C00141A6A /* TIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TIPViewController.m; sourceTree = "<group>"; };
+		CF98C6D119403F8C00141A6A /* TIPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TIPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF98C68E1940381700141A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF98C6961940381700141A6A /* UIKit.framework in Frameworks */,
+				CF98C6981940381700141A6A /* Foundation.framework in Frameworks */,
+				CF98C69A1940381700141A6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF98C6AE1940381700141A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF98C6B41940381700141A6A /* SenTestingKit.framework in Frameworks */,
+				CF98C6B51940381700141A6A /* UIKit.framework in Frameworks */,
+				CF98C6B61940381700141A6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF98C6861940381700141A6A = {
+			isa = PBXGroup;
+			children = (
+				CF98C69B1940381700141A6A /* tipdemo */,
+				CF98C6B91940381700141A6A /* tipdemoTests */,
+				CF98C6941940381700141A6A /* Frameworks */,
+				CF98C6921940381700141A6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF98C6921940381700141A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF98C6911940381700141A6A /* tipdemo.app */,
+				CF98C6B21940381700141A6A /* tipdemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF98C6941940381700141A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF98C6951940381700141A6A /* UIKit.framework */,
+				CF98C6971940381700141A6A /* Foundation.framework */,
+				CF98C6991940381700141A6A /* CoreGraphics.framework */,
+				CF98C6B31940381700141A6A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF98C69B1940381700141A6A /* tipdemo */ = {
+			isa = PBXGroup;
+			children = (
+				CF98C6A41940381700141A6A /* TIPAppDelegate.h */,
+				CF98C6A51940381700141A6A /* TIPAppDelegate.m */,
+				CF98C69C1940381700141A6A /* Supporting Files */,
+				CF98C6CF19403F8C00141A6A /* TIPViewController.h */,
+				CF98C6D019403F8C00141A6A /* TIPViewController.m */,
+				CF98C6D119403F8C00141A6A /* TIPViewController.xib */,
+			);
+			path = tipdemo;
+			sourceTree = "<group>";
+		};
+		CF98C69C1940381700141A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF98C69D1940381700141A6A /* tipdemo-Info.plist */,
+				CF98C69E1940381700141A6A /* InfoPlist.strings */,
+				CF98C6A11940381700141A6A /* main.m */,
+				CF98C6A31940381700141A6A /* tipdemo-Prefix.pch */,
+				CF98C6A71940381700141A6A /* Default.png */,
+				CF98C6A91940381700141A6A /* Default@2x.png */,
+				CF98C6AB1940381700141A6A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF98C6B91940381700141A6A /* tipdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF98C6BF1940381700141A6A /* tipdemoTests.h */,
+				CF98C6C01940381700141A6A /* tipdemoTests.m */,
+				CF98C6BA1940381700141A6A /* Supporting Files */,
+			);
+			path = tipdemoTests;
+			sourceTree = "<group>";
+		};
+		CF98C6BA1940381700141A6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF98C6BB1940381700141A6A /* tipdemoTests-Info.plist */,
+				CF98C6BC1940381700141A6A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF98C6901940381700141A6A /* tipdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF98C6C41940381700141A6A /* Build configuration list for PBXNativeTarget "tipdemo" */;
+			buildPhases = (
+				CF98C68D1940381700141A6A /* Sources */,
+				CF98C68E1940381700141A6A /* Frameworks */,
+				CF98C68F1940381700141A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tipdemo;
+			productName = tipdemo;
+			productReference = CF98C6911940381700141A6A /* tipdemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF98C6B11940381700141A6A /* tipdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF98C6C71940381700141A6A /* Build configuration list for PBXNativeTarget "tipdemoTests" */;
+			buildPhases = (
+				CF98C6AD1940381700141A6A /* Sources */,
+				CF98C6AE1940381700141A6A /* Frameworks */,
+				CF98C6AF1940381700141A6A /* Resources */,
+				CF98C6B01940381700141A6A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF98C6B81940381700141A6A /* PBXTargetDependency */,
+			);
+			name = tipdemoTests;
+			productName = tipdemoTests;
+			productReference = CF98C6B21940381700141A6A /* tipdemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF98C6881940381700141A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TIP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Y.CORP.YAHOO.COM\\xuewu";
+			};
+			buildConfigurationList = CF98C68B1940381700141A6A /* Build configuration list for PBXProject "tipdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF98C6861940381700141A6A;
+			productRefGroup = CF98C6921940381700141A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF98C6901940381700141A6A /* tipdemo */,
+				CF98C6B11940381700141A6A /* tipdemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF98C68F1940381700141A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF98C6A01940381700141A6A /* InfoPlist.strings in Resources */,
+				CF98C6A81940381700141A6A /* Default.png in Resources */,
+				CF98C6AA1940381700141A6A /* Default@2x.png in Resources */,
+				CF98C6AC1940381700141A6A /* Default-568h@2x.png in Resources */,
+				CF98C6D319403F8C00141A6A /* TIPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF98C6AF1940381700141A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF98C6BE1940381700141A6A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF98C6B01940381700141A6A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF98C68D1940381700141A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF98C6A21940381700141A6A /* main.m in Sources */,
+				CF98C6A61940381700141A6A /* TIPAppDelegate.m in Sources */,
+				CF98C6D219403F8C00141A6A /* TIPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF98C6AD1940381700141A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF98C6C11940381700141A6A /* tipdemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF98C6B81940381700141A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF98C6901940381700141A6A /* tipdemo */;
+			targetProxy = CF98C6B71940381700141A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF98C69E1940381700141A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF98C69F1940381700141A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF98C6BC1940381700141A6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF98C6BD1940381700141A6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF98C6C21940381700141A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF98C6C31940381700141A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF98C6C51940381700141A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipdemo/tipdemo-Prefix.pch";
+				INFOPLIST_FILE = "tipdemo/tipdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF98C6C61940381700141A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipdemo/tipdemo-Prefix.pch";
+				INFOPLIST_FILE = "tipdemo/tipdemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF98C6C81940381700141A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tipdemo.app/tipdemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipdemo/tipdemo-Prefix.pch";
+				INFOPLIST_FILE = "tipdemoTests/tipdemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF98C6C91940381700141A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tipdemo.app/tipdemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tipdemo/tipdemo-Prefix.pch";
+				INFOPLIST_FILE = "tipdemoTests/tipdemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF98C68B1940381700141A6A /* Build configuration list for PBXProject "tipdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF98C6C21940381700141A6A /* Debug */,
+				CF98C6C31940381700141A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF98C6C41940381700141A6A /* Build configuration list for PBXNativeTarget "tipdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF98C6C51940381700141A6A /* Debug */,
+				CF98C6C61940381700141A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF98C6C71940381700141A6A /* Build configuration list for PBXNativeTarget "tipdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF98C6C81940381700141A6A /* Debug */,
+				CF98C6C91940381700141A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF98C6881940381700141A6A /* Project object */;
+}
